@@ -17,7 +17,10 @@ export const Header = () => {
         )}
       </div>
       <div className="logo">
-        <img src="/logo.png" alt="Spring Boot AI" />
+        <img
+          src={`${import.meta.env.BASE_URL}/logo.png`}
+          alt="Spring Boot AI"
+        />
       </div>
 
       {/* Logo */}

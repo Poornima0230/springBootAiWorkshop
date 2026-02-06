@@ -30,7 +30,11 @@ export const About = () => {
         <div className="heading">
           <h1>RESOURCE PERSON:</h1>
         </div>
-        <img src="/speaker.jpg" alt="speaker" className="about-speaker-img" />
+        <img
+          src={`${import.meta.env.BASE_URL}/speaker.jpg`}
+          alt="speaker"
+          className="about-speaker-img"
+        />
         <h2>Mr.G.Jaya Krishna</h2>
 
         <p data-aos="fade-up">

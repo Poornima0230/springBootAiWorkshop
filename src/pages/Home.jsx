@@ -36,31 +36,7 @@ export const Home = () => {
     return () => clearInterval(timer);
   }, []);
 
-  // no button runs away
-  // const moveNoButton = () => {
-  //   const area = areaRef.current;
-  //   const btn = noBtnRef.current;
-
-  //   if (!area || !btn) return;
-
-  //   const areaRect = area.getBoundingClientRect();
-  //   const btnRect = btn.getBoundingClientRect();
-
-  //   const padding = 8;
-
-  //   const maxX = areaRect.width - btnRect.width - padding;
-  //   const maxY = areaRect.height - btnRect.height - padding;
-
-  //   const x = Math.random() * maxX + padding;
-  //   const y = Math.random() * maxY + padding;
-
-  //   setNoPos({
-  //     left: `${x}px`,
-  //     top: `${y}px`,
-  //     transform: "none",
-  //   });
-  // };
-
+  // run away
   const lastMoveRef = useRef(0);
 
   const moveNoButton = () => {
@@ -132,7 +108,10 @@ export const Home = () => {
 
         {/* Resource Person */}
         <div className="speaker">
-          <img src="/speaker.jpg" alt="Resource Person" />
+          <img
+            src={`${import.meta.env.BASE_URL}/speaker.jpg`}
+            alt="Resource Person"
+          />
           <div>
             <h4>Resource Person:</h4>
             <h3>MR.G.JAYA KRISHNA</h3>
@@ -155,14 +134,7 @@ export const Home = () => {
             Yes
           </button>
 
-          <button
-            className="no-btn"
-            ref={noBtnRef}
-            style={noPos}
-            // onMouseEnter={moveNoButton}
-            // onTouchStart={moveNoButton}
-            tabIndex={-1}
-          >
+          <button className="no-btn" ref={noBtnRef} style={noPos} tabIndex={-1}>
             No
           </button>
         </div>
@@ -175,7 +147,10 @@ export const Home = () => {
             <h2>Thank you for your enthusiasm</h2>
             <p>Please register by scanning the QR Code below</p>
 
-            <img src="/register.png" alt="Register QR" />
+            <img
+              src={`${import.meta.env.BASE_URL}/register.png`}
+              alt="Register QR"
+            />
             <a href="https://forms.gle/uicz8PtijJEJUiki8">
               https://forms.gle/uicz8PtijJEJUiki8
             </a>
