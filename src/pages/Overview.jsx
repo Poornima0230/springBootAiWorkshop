@@ -1,12 +1,20 @@
 import "../styles/overview.css";
 import { TiTick } from "react-icons/ti";
+import { AiFillSafetyCertificate } from "react-icons/ai";
 
 export const Overview = () => {
   return (
     <div className="overview-page">
-      <h1 className="over-heading" data-aos="fade-up">
-        Overview
-      </h1>
+      <div className="heading-container" data-aos="fade-up">
+        <h1 className="over-heading" data-aos="fade-up">
+          Overview
+        </h1>
+        <h2 className="over-subheading" data-aos="fade-up">
+          <AiFillSafetyCertificate className="certificate-icon" />
+          "All registered participants will receive an ISO certificate"
+        </h2>
+      </div>
+
       <div className="over-learn" data-aos="fade-up">
         <h1>What will you learn</h1>
         <div className="points">

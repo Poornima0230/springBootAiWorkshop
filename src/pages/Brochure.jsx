@@ -18,22 +18,18 @@ export const Brochure = () => {
 
       a.remove();
       window.URL.revokeObjectURL(url);
-    } catch (error) {
+    } catch {
       alert("Failed to download brochure");
     }
   };
 
   const handleShare = async () => {
     if (navigator.share) {
-      try {
-        await navigator.share({
-          title: "Spring Boot with AI Workshop",
-          text: "Check out the workshop brochure",
-          url: brochureUrl,
-        });
-      } catch {
-        console.log("Share cancelled");
-      }
+      await navigator.share({
+        title: "Spring Boot with AI Workshop",
+        text: "Check out the workshop brochure",
+        url: brochureUrl,
+      });
     } else {
       await navigator.clipboard.writeText(brochureUrl);
       alert("Brochure link copied to clipboard");
@@ -44,24 +40,17 @@ export const Brochure = () => {
     <section className="brochure-page" data-aos="fade-up">
       <h1>Workshop Brochure</h1>
 
+      {/* PDF VIEWER */}
       <div className="pdf-container" data-aos="zoom-in">
-        <img src={`${import.meta.env.BASE_URL}/robot.jpg`} alt="robot" />
+        <iframe src={brochureUrl} title="Workshop Brochure" />
       </div>
 
       <div className="brochure-actions">
-        <button
-          onClick={handleDownload}
-          className="download-btn"
-          // data-aos="fade-right"
-        >
+        <button onClick={handleDownload} className="download-btn">
           Download PDF
         </button>
 
-        <button
-          onClick={handleShare}
-          className="share-btn"
-          // data-aos="fade-left"
-        >
+        <button onClick={handleShare} className="share-btn">
           Share
         </button>
       </div>
