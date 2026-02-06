@@ -1,0 +1,50 @@
+.footer {
+    background-color: black;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 3rem;
+
+    margin-top: 5rem;
+}
+
+
+.ff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-bottom: 1.5rem;
+
+    & h3 {
+        font-size: 2.3rem;
+    }
+
+    & p {
+        font-size: 1.3rem;
+    }
+}
+
+.fs {
+    & h3 {
+        font-size: 2rem;
+    }
+
+    & .fss {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+        font-size: 1.2rem;
+
+    }
+}

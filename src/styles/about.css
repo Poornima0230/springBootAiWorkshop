@@ -1,0 +1,74 @@
+.about-page {
+    color: aliceblue;
+    /* font-size: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    padding-top: 10rem;
+}
+
+.heading h1 {
+    font-size: 3.5rem;
+    padding: 0;
+    text-align: center;
+    color: #4dafff;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.5rem;
+    /* margin: 1rem; */
+}
+
+.second-about {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.second-about p {
+    width: 20%;
+    /* border: 2px solid pink; */
+}
+
+.about-page p {
+    /* border: 2px solid pink; */
+    font-size: 1.6rem;
+    width: 80%;
+    text-align: justify;
+    padding-bottom: 1.2rem;
+}
+
+.heading .sub-heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #9adfff;
+
+    text-align: center;
+    /* padding-left: 8rem; */
+    width: 100%;
+    padding: 2rem;
+}
+
+.about-speaker-img {
+    width: 42rem;
+}
+
+.second-about h2 {
+    color: #9adfff;
+    font-size: 2.5rem;
+
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.2rem;
+
+}
+
+@media (max-width: 768px) {
+    .about-page p {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
