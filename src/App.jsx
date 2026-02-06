@@ -44,6 +44,9 @@ function App() {
         },
       ],
     },
+    {
+      basename: "/springBootAiWorkshop",
+    },
   ]);
   return <RouterProvider router={router} />;
 }
