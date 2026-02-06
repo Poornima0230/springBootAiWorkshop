@@ -16,38 +16,40 @@ function App() {
     AOS.init({ duration: 1500 });
   }, []);
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <AppLayout />,
-      errorElement: <ErrorPage />,
-      children: [
-        {
-          index: true,
-          element: <Home />,
-        },
-        {
-          path: "about",
-          element: <About />,
-        },
-        {
-          path: "overview",
-          element: <Overview />,
-        },
-        {
-          path: "contact",
-          element: <Contact />,
-        },
-        {
-          path: "brochure",
-          element: <Brochure />,
-        },
-      ],
-    },
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <AppLayout />,
+        errorElement: <ErrorPage />,
+        children: [
+          {
+            index: true,
+            element: <Home />,
+          },
+          {
+            path: "about",
+            element: <About />,
+          },
+          {
+            path: "overview",
+            element: <Overview />,
+          },
+          {
+            path: "contact",
+            element: <Contact />,
+          },
+          {
+            path: "brochure",
+            element: <Brochure />,
+          },
+        ],
+      },
+    ],
     {
       basename: "/springBootAiWorkshop",
-    },
-  ]);
+    }
+  );
   return <RouterProvider router={router} />;
 }
 
