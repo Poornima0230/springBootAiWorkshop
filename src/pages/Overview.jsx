@@ -11,24 +11,27 @@ export const Overview = () => {
         <h1>What will you learn</h1>
         <div className="points">
           <p>
-            <TiTick /> Build modern backend applications using Spring Boot
+            <TiTick /> Build modern backend applications using{" "}
+            <b>Spring Boot</b>
           </p>
           <p>
-            <TiTick /> Design and develop RESTful APIs with industry best
+            <TiTick /> Design and develop <b>RESTful APIs</b> with industry best
             practices
           </p>
           <p>
-            <TiTick /> Work with databases using Spring Data JPA & Hibernate
+            <TiTick /> Work with databases using{" "}
+            <b>Spring Data JPA & Hibernate.</b>
           </p>
           <p>
-            <TiTick /> Understand how AI integrates with Java applications
+            <TiTick /> Understand{" "}
+            <b>how AI integrates with Java applications</b>
           </p>
           <p>
-            <TiTick /> Integrate AI APIs into Spring Boot apps (chatbots & smart
-            features)
+            <TiTick /> Integrate <b>AI APIs</b> into Spring Boot apps (chatbots
+            & smart features)
           </p>
           <p>
-            <TiTick /> Develop an AI-powered mini project for resume and
+            <TiTick /> Develop an <b>AI-powered mini project</b> for resume and
             interviews
           </p>
         </div>
@@ -47,15 +50,15 @@ export const Overview = () => {
           </p>
           <p>
             <TiTick />
-            Gain practical knowledge useful for placements & internships
+            Gain practical knowledge useful for <b>placements & internships</b>
           </p>
           <p>
             <TiTick />
-            Add a real-time AI + Spring Boot project to their resume
+            Add a <b>real-time AI + Spring Boot project</b> to their resume
           </p>
           <p>
             <TiTick />
-            Stay aligned with latest 2026 IT industry trends
+            Stay aligned with <b>latest 2026 IT industry trends</b>
           </p>
         </div>
       </div>
@@ -63,15 +66,18 @@ export const Overview = () => {
         <h1>Workshop Theme</h1>
         <h3>Gen Z Oriented – Future-Ready Tech Skills</h3>
         <p>
-          The IT industry in 2026 demands developers who can combine strong
-          backend knowledge with AI-powered features. This workshop is specially
-          designed to help students and professionals understand how modern
-          applications are built using Spring Boot and how Artificial
-          Intelligence can be integrated into real-world systems.
+          The IT industry in <b>2026</b> demands developers who can combine{" "}
+          <b>strong backend knowledge with AI-powered features.</b> This
+          workshop is specially designed to help students and professionals
+          understand how modern applications are built using <b>Spring Boot</b>{" "}
+          and how{" "}
+          <b>
+            Artificial Intelligence can be integrated into real-world systems.
+          </b>
         </p>
-        This is not just theory — participants will gain hands-on exposure to
-        building intelligent backend applications aligned with current industry
-        needs.
+        This is not just theory — participants will gain{" "}
+        <b>hands-on exposure</b> to building intelligent backend applications
+        aligned with current industry needs.
         <p></p>
       </div>
       <div className="over-join" data-aos="fade-up">

@@ -31,7 +31,7 @@ export const About = () => {
           <h1>RESOURCE PERSON:</h1>
         </div>
         <img
-          src={`${import.meta.env.BASE_URL}/speaker.jpg`}
+          src={`${import.meta.env.BASE_URL}/speaker.png`}
           alt="speaker"
           className="about-speaker-img"
         />
@@ -39,17 +39,21 @@ export const About = () => {
 
         <p data-aos="fade-up">
           Jaya Krishna is a Senior Java Developer and passionate technical
-          educator with strong expertise in DSA, Core & Advanced Java, Spring
-          Framework, Spring Boot, and Microservices architecture. He also
-          possesses solid frontend development skills in HTML, CSS, JavaScript,
-          Bootstrap, and React.js, enabling him to design and develop complete
-          end-to-end web applications.
+          educator with strong expertise in{" "}
+          <b>
+            DSA, Core & Advanced Java, Spring Framework, Spring Boot, and
+            Microservices architecture
+          </b>
+          . He also possesses solid frontend development skills in{" "}
+          <b>HTML, CSS, JavaScript, Bootstrap, and React.js</b>, enabling him to
+          design and develop complete end-to-end web applications.
         </p>
         <p data-aos="fade-up">
-          As a trainer, he focuses on delivering practical, industry-ready
-          skills that bridge the gap between academic learning and real-world
-          software development. In this workshop, he will demonstrate how to
-          build industry-ready Spring Boot applications integrated with AI,
+          As a trainer, he focuses on delivering{" "}
+          <b>practical, industry-ready skills</b> that bridge the gap between
+          academic learning and real-world software development. In this
+          workshop, he will demonstrate how to build{" "}
+          <b>industry-ready Spring Boot applications integrated with AI,</b>
           aligned with modern technology trends and industry demands.
         </p>
       </div>

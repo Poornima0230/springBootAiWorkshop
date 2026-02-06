@@ -3,11 +3,15 @@ import { IoIosCall } from "react-icons/io";
 export const Contact = () => {
   return (
     <div className="contact-page" data-aos="fade-up">
-      <h2>For more details contact:</h2>
-      <h1 className="contact-name">Dr. K. Venkat Sathish</h1>
-      <h3>
-        <IoIosCall /> 9912878008
-      </h3>
+      <h1 className="contact-heading">Contact</h1>
+      <div className="contact-glass">
+        <img src={`${import.meta.env.BASE_URL}/contact.png`} alt="contact" />
+        <h2>For more details contact:</h2>
+        <h1 className="contact-name">Dr. K. Venkat Sathish</h1>
+        <h3>
+          <IoIosCall /> 9912878008
+        </h3>
+      </div>
     </div>
   );
 };

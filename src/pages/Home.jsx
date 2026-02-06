@@ -68,7 +68,7 @@ export const Home = () => {
     <section className="home-page">
       {/* Glass Card */}
       <div className="glass-card" data-aos="fade-up">
-        <h2>One day National virtual workshop</h2>
+        <h2>One day National Level Virtual Workshop</h2>
         <h2>On</h2>
         <h1>Spring boot with AI</h1>
         <p className="subheading">Build the Future of Backend Development</p>
@@ -109,7 +109,7 @@ export const Home = () => {
         {/* Resource Person */}
         <div className="speaker">
           <img
-            src={`${import.meta.env.BASE_URL}/speaker.jpg`}
+            src={`${import.meta.env.BASE_URL}/speaker.png`}
             alt="Resource Person"
           />
           <div>

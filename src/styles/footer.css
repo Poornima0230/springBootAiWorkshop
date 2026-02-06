@@ -36,6 +36,7 @@
 .fs {
     & h3 {
         font-size: 2rem;
+        text-align: center;
     }
 
     & .fss {
@@ -43,8 +44,42 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 1.2rem;
+        /* gap: 1rem; */
         font-size: 1.2rem;
 
     }
+}
+
+.fss img {
+    width: 10rem;
+    padding: 2rem;
+}
+
+.fss .vignora {
+    width: 20rem;
+}
+
+.fss p:hover {
+    color: aquamarine;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 2rem;
+
+    padding-bottom: 2rem;
+
+}
+
+.footer-logo img {
+    width: 5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
