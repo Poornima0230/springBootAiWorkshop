@@ -130,7 +130,10 @@ export const Home = () => {
           onMouseMove={moveNoButton}
           onTouchMove={moveNoButton}
         >
-          <button className="yes-btn" onClick={() => setShowModal(true)}>
+          <button
+            className="yes-btn cyber-hover"
+            onClick={() => setShowModal(true)}
+          >
             Yes
           </button>
 

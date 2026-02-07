@@ -51,7 +51,7 @@ export const Brochure = () => {
       <div className="brochure-actions">
         <button
           onClick={handleDownload}
-          className="download-btn"
+          className="download-btn cyber-hover"
           // data-aos="fade-right"
         >
           Download PDF
@@ -59,7 +59,8 @@ export const Brochure = () => {
 
         <button
           onClick={handleShare}
-          className="share-btn"
+          className="share-btn cyber-hover"
+
           // data-aos="fade-left"
         >
           Share
